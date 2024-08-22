@@ -16,7 +16,7 @@ import requests
 import os
 import zipfile
 
-UPDATE_URL = "https://raw.githubusercontent.com/your-repo/your-addon/main/version.txt"
+UPDATE_URL = "https://github.com/Ananth002/Blender_Addon/blob/main/Addon/Scene_status.py"
 DOWNLOAD_URL = "https://github.com/your-repo/your-addon/archive/refs/heads/main.zip"
 
 class SceneStatsProperties(bpy.types.PropertyGroup):
