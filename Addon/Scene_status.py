@@ -4,7 +4,7 @@ bl_info = {
     "category": "Scene",
     "author": "Ananth",
     "description": "Counts various types of objects and displays statistics including vertices, edges, faces, triangles, image textures, and materials in the scene. Provides an option to delete non-used materials.",
-    "version": (1, 8),
+    "version": (1, 9),
     "location": "View3D > N-panel > Scene Stats",
     "wiki_url": "",
     "tracker_url": "",
