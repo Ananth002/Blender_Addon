@@ -164,14 +164,14 @@ class WM_OT_check_for_update(bpy.types.Operator):
         try:
             # Download the latest version
             response = requests.get(DOWNLOAD_URL)
-            zip_path = os.path.join(bpy.app.tempdir, "Scene status.zip")
+            zip_path = os.path.join(bpy.app.tempdir, "Blender_Addon-main.zip")
             
             with open(zip_path, "wb") as f:
                 f.write(response.content)
             
             # Extract the downloaded zip file
             with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                extract_path = bpy.utils.user_resource('SCRIPTS', "addons")
+                extract_path = bpy.utils.user_resource('SCRIPTS', "addons",create=True)
                 zip_ref.extractall(extract_path)
             
             self.report({'INFO'}, "Update downloaded and installed. Please restart Blender.")
