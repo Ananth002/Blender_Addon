@@ -17,7 +17,7 @@ import os
 import zipfile
 
 UPDATE_URL = "https://raw.githubusercontent.com/Ananth002/Blender_Addon/main/version.txt"
-DOWNLOAD_URL = "https://github.com/user-attachments/files/16724438/Scence.status.zip"
+DOWNLOAD_URL = "https://github.com/Ananth002/Blender_Addon/archive/refs/heads/main.zip"
 
 class SceneStatsProperties(bpy.types.PropertyGroup):
     show_selected_stats: bpy.props.BoolProperty(
