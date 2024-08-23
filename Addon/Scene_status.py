@@ -164,7 +164,7 @@ class WM_OT_check_for_update(bpy.types.Operator):
         try:
             # Download the latest version
             response = requests.get(DOWNLOAD_URL)
-            zip_path = os.path.join(bpy.app.tempdir, "latest_addon.zip")
+            zip_path = os.path.join(bpy.app.tempdir, "Scene status.zip")
             
             with open(zip_path, "wb") as f:
                 f.write(response.content)
