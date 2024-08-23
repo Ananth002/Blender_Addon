@@ -1,6 +1,8 @@
 import bpy
+import os
 
 from . import Addon
+ addon_directory=os.path.dirname(__Addon__)
 bl_info={
   "name": "Scene status",
 }
