@@ -1,6 +1,6 @@
 <h1> BLENDER SCENE STATUS ADDON</h1>
 
-✔️ Features: scene statics and with modifier to count statics
+✔️ Features: scene statics with modifier 
 
 <ul>
   <l>Blender Version</l>
